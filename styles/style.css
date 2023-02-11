@@ -101,7 +101,8 @@ img {
     border-radius: 1em;
     margin-top: -0.5em;
     height: 20vw;
-    width: 30vw;
+    max-width: 30vw;
+    min-width: 30vw;
 }
 
 #main-p {
