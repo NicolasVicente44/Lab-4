@@ -49,6 +49,7 @@ header {
     margin-top: 3em;
     border: #1e90ff;
     border-radius: 1em;
+    background-color: #57606f;
 }
 
 h1 {
@@ -102,8 +103,20 @@ img {
     margin-top: -0.5em;
     height: 20vw;
     width: 30vw;
+    filter: contrast(105%);
+    filter: drop-shadow(16px, 16px, 20px, blue) invert(75%);
 }
 
+@media screen and (max-width: 300px) {
+    img {
+        border: #1e90ff;
+        border-radius: 1em;
+        margin-top: -0.5em;
+        height: 40vw;
+        width: 50vw;
+    }    
+  }
+  
 #main-p {
     font-size: 1.5em;
     color: black;
